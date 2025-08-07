@@ -166,9 +166,9 @@ body::before {
     }
 
     .link-button {
-        width: 90%; /* Changed from 100% to 90% */
+        width: 100%; /* The button will now stretch to the container's edges */
         padding: 12px;
         font-size: 14px;
-        margin: 10px auto; /* Added vertical margin for spacing between buttons */
+        margin: 0; /* Removed the vertical margin */
     }
 }
