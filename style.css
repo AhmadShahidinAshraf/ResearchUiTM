@@ -51,14 +51,12 @@ body::before {
 }
 
 .logo1 {
-    width: 100%;
-    max-width: 300px;
+    width: 300px;
     margin-bottom: 10px;
 }
 
 .logo2 {
-    width: 100%;
-    max-width: 225px;
+    width: 225px;
     margin-bottom: 50px;
 }
 
@@ -70,8 +68,7 @@ body::before {
 }
 
 .container1 {
-    width: 90%;
-    max-width: 680px;
+    width: 680px;
     padding: 30px;
     background-color: #ffffff;
     border-radius: 12px;
@@ -83,8 +80,7 @@ body::before {
 }
 
 .container {
-    width: 90%;
-    max-width: 400px;
+    width: 400px;
     padding: 30px;
     background-color: #ffffff;
     border-radius: 12px;
@@ -102,8 +98,8 @@ body::before {
     width: 70%;
     padding: 15px;
     border: none;
-    border-radius: 80px;
-    background-color: #51a0a6;
+    border-radius: 8px;
+    background-color: #5d51a6;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -116,7 +112,7 @@ body::before {
 }
 
 .link-button:hover {
-    background-color: #305457;
+    background-color: #3d3670;
 }
 
 .icon {
@@ -145,24 +141,4 @@ body::before {
     font-weight: 400;
     margin-bottom: 0;
     text-align: justify;
-}
-
-/* Mobile-specific styles for screens 768px and smaller */
-@media (max-width: 768px) {
-    .container1 {
-        width: 90%;
-        padding: 20px;
-        margin-top: -20px;
-    }
-
-    .container {
-        width: 90%;
-        padding: 20px;
-    }
-
-    .link-button {
-        width: 100%; /* Full width buttons for easy tapping */
-        padding: 12px;
-        font-size: 14px;
-    }
 }
