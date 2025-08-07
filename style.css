@@ -149,14 +149,18 @@ body::before {
 
 /* Mobile-specific styles for screens 768px and smaller */
 @media (max-width: 768px) {
+    body {
+        padding: 0 15px; /* Adds a 15px gap on the left and right */
+    }
+    
     .container1 {
-        width: 90%;
+        width: 100%; /* Now takes up the full width, but the body padding creates the gap */
         padding: 20px;
         margin-top: -20px;
     }
 
     .container {
-        width: 90%;
+        width: 100%;
         padding: 20px;
     }
 
