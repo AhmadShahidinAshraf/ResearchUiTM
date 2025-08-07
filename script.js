@@ -10,8 +10,8 @@ buttons.forEach(button => {
         // Get the URL from the button's href attribute
         const targetUrl = this.href;
 
-        // Show the GIF overlay
-        gifOverlay.style.display = 'flex';
+        // Add the new class to show the GIF overlay
+        gifOverlay.classList.add('show-overlay');
 
         // Wait for 2 seconds (2000 milliseconds) and then navigate
         setTimeout(function() {
