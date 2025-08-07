@@ -141,12 +141,13 @@ body::before {
     margin-bottom: 0;
     text-align: justify;
 }
+
 /* ------------------------------------------- */
 
 /* Mobile-specific styles for screens up to 768px */
 @media (max-width: 768px) {
     body {
-        padding: 0 15px; /* Adds a 15px gap on the left and right */
+        padding: 0 15px;
     }
 
     .header-content {
@@ -154,19 +155,20 @@ body::before {
     }
 
     .logo1, .logo2 {
-        max-width: 80%; /* Limits the size of the logos */
+        max-width: 80%;
         margin-bottom: 10px;
     }
 
     .container1, .container {
-        width: 100%; /* Take full width within body padding */
+        width: 100%;
         padding: 15px;
-        margin-top: 0; /* Remove negative margin on mobile */
+        margin-top: 0;
     }
 
     .link-button {
-        width: 100%; /* Full width for easy tapping */
+        width: 90%; /* Changed from 100% to 90% */
         padding: 12px;
         font-size: 14px;
+        margin: 10px auto; /* Added vertical margin for spacing between buttons */
     }
 }
