@@ -102,8 +102,8 @@ body::before {
     width: 70%;
     padding: 15px;
     border: none;
-    border-radius: 8px;
-    background-color: #5d51a6;
+    border-radius: 80px;
+    background-color: #51a0a6;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -116,7 +116,7 @@ body::before {
 }
 
 .link-button:hover {
-    background-color: #3d3670;
+    background-color: #305457;
 }
 
 .icon {
@@ -149,18 +149,14 @@ body::before {
 
 /* Mobile-specific styles for screens 768px and smaller */
 @media (max-width: 768px) {
-    body {
-        padding: 0 15px; /* Adds a 15px gap on the left and right */
-    }
-    
     .container1 {
-        width: 100%; /* Now takes up the full width, but the body padding creates the gap */
+        width: 90%;
         padding: 20px;
         margin-top: -20px;
     }
 
     .container {
-        width: 100%;
+        width: 90%;
         padding: 20px;
     }
 
