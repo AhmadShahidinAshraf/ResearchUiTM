@@ -98,8 +98,8 @@ body::before {
     width: 70%;
     padding: 15px;
     border: none;
-    border-radius: 8px;
-    background-color: #5d51a6;
+    border-radius: 80px;
+    background-color: #51a3a6;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -112,7 +112,7 @@ body::before {
 }
 
 .link-button:hover {
-    background-color: #3d3670;
+    background-color: #366970;
 }
 
 .icon {
