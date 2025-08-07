@@ -51,12 +51,14 @@ body::before {
 }
 
 .logo1 {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     margin-bottom: 10px;
 }
 
 .logo2 {
-    width: 225px;
+    width: 100%;
+    max-width: 225px;
     margin-bottom: 50px;
 }
 
@@ -68,7 +70,8 @@ body::before {
 }
 
 .container1 {
-    width: 680px;
+    width: 90%;
+    max-width: 680px;
     padding: 30px;
     background-color: #ffffff;
     border-radius: 12px;
@@ -80,7 +83,8 @@ body::before {
 }
 
 .container {
-    width: 400px;
+    width: 90%;
+    max-width: 400px;
     padding: 30px;
     background-color: #ffffff;
     border-radius: 12px;
@@ -141,4 +145,34 @@ body::before {
     font-weight: 400;
     margin-bottom: 0;
     text-align: justify;
+}
+
+/* ------------------------------------------- */
+
+/* Mobile-specific styles for screens up to 768px */
+@media (max-width: 768px) {
+    body {
+        padding: 0 15px; /* Adds a 15px gap on the left and right */
+    }
+
+    .header-content {
+        margin-bottom: 10px;
+    }
+
+    .logo1, .logo2 {
+        max-width: 80%; /* Limits the size of the logos */
+        margin-bottom: 10px;
+    }
+
+    .container1, .container {
+        width: 100%; /* Take full width within body padding */
+        padding: 15px;
+        margin-top: 0; /* Remove negative margin on mobile */
+    }
+
+    .link-button {
+        width: 100%; /* Full width for easy tapping */
+        padding: 10px;
+        font-size: 14px;
+    }
 }
