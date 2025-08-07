@@ -97,7 +97,7 @@ body::before {
     width: 70%;
     padding: 15px;
     border: none;
-    border-radius: 80px;
+    border-radius: 8px;
     background-color: #519ca6;
     color: #fff;
     font-size: 16px;
@@ -172,3 +172,4 @@ body::before {
         margin: 10px auto; /* Added vertical margin for spacing between buttons */
     }
 }
+
